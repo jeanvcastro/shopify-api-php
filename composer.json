@@ -1,0 +1,22 @@
+{
+    "name": "jeanvcastro/shopify-api-php",
+    "description": "A simple PHP library designed for marketplaces to integrate with the Shopify API.",
+    "type": "library",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "guzzlehttp/guzzle": "^7.8",
+        "ext-json": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jeanvcastro\\ShopifyApiPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jeanvcastro",
+            "email": "jean.castro1@outlook.com"
+        }
+    ]
+}
