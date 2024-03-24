@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "format": "prettier --write ."
+    },
+    "devDependencies": {
+        "@prettier/plugin-php": "^0.22.2",
+        "@shufo/prettier-plugin-blade": "^1.14.1",
+        "prettier": "^3.2.5"
+    }
+}

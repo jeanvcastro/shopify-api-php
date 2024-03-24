@@ -24,7 +24,7 @@ class TransactionService
             $response = $this->client->getClient()->post("orders/$orderId/transactions.json", [
                 "json" => [
                     "transaction" => $transaction,
-                ]
+                ],
             ]);
             $content = json_decode($response->getBody()->getContents());
             return $content->transaction;
