@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "format": "prettier --write ."
+        "format": "prettier --write ./**/*.php"
     },
     "devDependencies": {
         "@prettier/plugin-php": "^0.22.2",
